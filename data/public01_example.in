@@ -1,0 +1,12 @@
+11
+Declare int x 100
+Declare string s "SJTU"
+Print x
+Print s
+SelfAdd x 5
+SelfAdd s "ACM"
+Print x
+Print s
+Declare int y 20
+Add x x y
+Print x

@@ -1,0 +1,405 @@
+404
+Declare int score 0
+Declare string status "init"
+Print score
+Print status
+Indent
+Declare int score 10
+Declare string status "level1"
+Print score
+Print status
+SelfAdd score 1
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 11
+Declare string status "level1_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 20
+Declare string status "level2"
+Print score
+Print status
+SelfAdd score 2
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 21
+Declare string status "level2_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 30
+Declare string status "level3"
+Print score
+Print status
+SelfAdd score 3
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 31
+Declare string status "level3_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 40
+Declare string status "level4"
+Print score
+Print status
+SelfAdd score 4
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 41
+Declare string status "level4_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 50
+Declare string status "level5"
+Print score
+Print status
+SelfAdd score 5
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 51
+Declare string status "level5_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 60
+Declare string status "level6"
+Print score
+Print status
+SelfAdd score 6
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 61
+Declare string status "level6_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 70
+Declare string status "level7"
+Print score
+Print status
+SelfAdd score 7
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 71
+Declare string status "level7_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 80
+Declare string status "level8"
+Print score
+Print status
+SelfAdd score 8
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 81
+Declare string status "level8_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 90
+Declare string status "level9"
+Print score
+Print status
+SelfAdd score 9
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 91
+Declare string status "level9_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 100
+Declare string status "level10"
+Print score
+Print status
+SelfAdd score 10
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 101
+Declare string status "level10_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 110
+Declare string status "level11"
+Print score
+Print status
+SelfAdd score 11
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 111
+Declare string status "level11_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 120
+Declare string status "level12"
+Print score
+Print status
+SelfAdd score 12
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 121
+Declare string status "level12_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 130
+Declare string status "level13"
+Print score
+Print status
+SelfAdd score 13
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 131
+Declare string status "level13_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 140
+Declare string status "level14"
+Print score
+Print status
+SelfAdd score 14
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 141
+Declare string status "level14_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 150
+Declare string status "level15"
+Print score
+Print status
+SelfAdd score 15
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 151
+Declare string status "level15_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 160
+Declare string status "level16"
+Print score
+Print status
+SelfAdd score 16
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 161
+Declare string status "level16_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 170
+Declare string status "level17"
+Print score
+Print status
+SelfAdd score 17
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 171
+Declare string status "level17_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 180
+Declare string status "level18"
+Print score
+Print status
+SelfAdd score 18
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 181
+Declare string status "level18_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 190
+Declare string status "level19"
+Print score
+Print status
+SelfAdd score 19
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 191
+Declare string status "level19_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status
+Indent
+Declare int score 200
+Declare string status "level20"
+Print score
+Print status
+SelfAdd score 20
+SelfAdd status "!"
+Print score
+Print status
+Indent
+Declare int score 201
+Declare string status "level20_inner"
+Print score
+Print status
+Dedent
+Print score
+Print status
+Dedent
+Print score
+Print status

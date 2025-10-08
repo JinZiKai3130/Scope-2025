@@ -1,0 +1,615 @@
+614
+Declare string buffer_a "Alpha"
+Declare string buffer_b "Beta"
+Declare string buffer_c "Gamma"
+Declare string concat_all ""
+Declare string tagline ""
+Declare string suffix ""
+SelfAdd buffer_a "-"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+Print concat_all
+Print tagline
+SelfAdd buffer_b "|"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "*"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " / "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " + "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "~"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "::"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "++"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "=="
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "<>"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "-"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "|"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "*"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " / "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " + "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_a "~"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "::"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "++"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "=="
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "<>"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "-"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "|"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "*"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " / "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " + "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "~"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "::"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "++"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "=="
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_c "<>"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "-"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "|"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "*"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " / "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " + "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "~"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "::"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "++"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "=="
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "<>"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "-"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "|"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "*"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_b " / "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " + "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "~"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "::"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "++"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "=="
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "<>"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "-"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "|"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "*"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " / "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " + "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "~"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "::"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_a "++"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "=="
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "<>"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "-"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "|"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "*"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " / "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " + "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "~"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "::"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "++"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "=="
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "<>"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "-"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+Print concat_all
+Print tagline
+SelfAdd buffer_c "|"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "*"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " / "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " + "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "~"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "::"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "++"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "=="
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "<>"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "-"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "|"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "*"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " / "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " + "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_b "~"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "::"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "++"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "=="
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "<>"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "-"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "|"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "*"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " / "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " + "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "~"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "::"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "++"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "=="
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_a "<>"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "-"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "|"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "*"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " / "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " + "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "~"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "::"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "++"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "=="
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "<>"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "-"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "|"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "*"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_c " / "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " + "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "~"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "::"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "++"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "=="
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "<>"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "-"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "|"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "*"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " / "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " + "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "~"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "::"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_b "++"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "=="
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "<>"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "-"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "|"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "*"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " / "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " + "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "~"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "::"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "++"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "=="
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "<>"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "-"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+Print concat_all
+Print tagline
+SelfAdd buffer_a "|"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "*"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " / "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " + "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "~"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "::"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "++"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "=="
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "<>"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "-"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "|"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "*"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " / "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " + "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_c "~"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "::"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "++"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "=="
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "<>"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "-"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "|"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "*"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b " / "
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " + "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "~"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Add suffix suffix buffer_b
+SelfAdd buffer_b "::"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "++"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "=="
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+Print concat_all
+Print tagline
+SelfAdd buffer_b "<>"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "-"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Add suffix suffix buffer_a
+SelfAdd buffer_a "|"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "*"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c " / "
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a " + "
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "~"
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+Add suffix suffix buffer_c
+SelfAdd buffer_c "::"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+SelfAdd buffer_a "++"
+Add concat_all concat_all buffer_a
+SelfAdd tagline "|"
+SelfAdd buffer_b "=="
+Add concat_all concat_all buffer_b
+SelfAdd tagline "|"
+SelfAdd buffer_c "<>"
+Add concat_all concat_all buffer_c
+SelfAdd tagline "|"
+Print buffer_a
+Print buffer_b
+Print buffer_c
+Print concat_all
+Print tagline
+Print suffix

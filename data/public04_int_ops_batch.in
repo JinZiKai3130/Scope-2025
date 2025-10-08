@@ -1,0 +1,657 @@
+656
+Declare int c0 0
+Declare int c1 10
+Declare int c2 20
+Declare int c3 30
+Declare int c4 40
+Declare int sum_even 0
+Declare int sum_odd 0
+Declare int total 0
+SelfAdd c0 1
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 2
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 3
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 4
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 5
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 6
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 7
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 1
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 2
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 3
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 4
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 5
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 6
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 7
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 1
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 2
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 3
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 4
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 5
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 6
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 7
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 1
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 2
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 3
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 4
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 5
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 6
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 7
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 1
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 2
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 3
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 4
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 5
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 6
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 7
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 1
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 2
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 3
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 4
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 5
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 6
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 7
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 1
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 2
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 3
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 4
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 5
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 6
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 7
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 1
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 2
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 3
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 4
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 5
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 6
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 7
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 1
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 2
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 3
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 4
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 5
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 6
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 7
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 1
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 2
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 3
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 4
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 5
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 6
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 7
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 1
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 2
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 3
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 4
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 5
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 6
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 7
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 1
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 2
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 3
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 4
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 5
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 6
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 7
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 1
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 2
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 3
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 4
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 5
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 6
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 7
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 1
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 2
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 3
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 4
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 5
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 6
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 7
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 1
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 2
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 3
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 4
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 5
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 6
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 7
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 1
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 2
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 3
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 4
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 5
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 6
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 7
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 1
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 2
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 3
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 4
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 5
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 6
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 7
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 1
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 2
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 3
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 4
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 5
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 6
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 7
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 1
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 2
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 3
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 4
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 5
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 6
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 7
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 1
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 2
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 3
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 4
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 5
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 6
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 7
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 1
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 2
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 3
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 4
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 5
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 6
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 7
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 1
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 2
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 3
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 4
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 5
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 6
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 7
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 1
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 2
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 3
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 4
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 5
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 6
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 7
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 1
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 2
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 3
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 4
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 5
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 6
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 7
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 1
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 2
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 3
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 4
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 5
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 6
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 7
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 1
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 2
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 3
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 4
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 5
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 6
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 7
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 1
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 2
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 3
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 4
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 5
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 6
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 7
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 1
+Add total total c4
+Add sum_odd sum_odd c4
+SelfAdd c0 2
+Add total total c0
+Add sum_even sum_even c0
+Print total
+Print c0
+SelfAdd c1 3
+Add total total c1
+Add sum_odd sum_odd c1
+SelfAdd c2 4
+Add total total c2
+Add sum_even sum_even c2
+SelfAdd c3 5
+Add total total c3
+Add sum_odd sum_odd c3
+SelfAdd c4 6
+Add total total c4
+Add sum_even sum_even c4
+SelfAdd c0 7
+Add total total c0
+Add sum_odd sum_odd c0
+SelfAdd c1 1
+Add total total c1
+Add sum_even sum_even c1
+SelfAdd c2 2
+Add total total c2
+Add sum_odd sum_odd c2
+SelfAdd c3 3
+Add total total c3
+Add sum_even sum_even c3
+SelfAdd c4 4
+Add total total c4
+Add sum_odd sum_odd c4
+Print c0
+Print c1
+Print c2
+Print c3
+Print c4
+Print sum_even
+Print sum_odd
+Print total

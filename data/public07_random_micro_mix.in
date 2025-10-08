@@ -1,0 +1,2001 @@
+2000
+Declare int int_accum 0
+Declare int ia 10
+Declare int ib -3
+Declare string string_accum ""
+Declare string sa "alpha"
+Declare string sb "beta"
+SelfAdd sa "bench"
+SelfAdd sa " profile random"
+SelfAdd ia 2
+SelfAdd ia 3
+SelfAdd int_accum 5
+SelfAdd int_accum 5
+SelfAdd ib 3
+Add string_accum sb sa
+SelfAdd sb "case"
+SelfAdd ib 2
+Add int_accum ib ib
+Declare int vi0 -207
+SelfAdd ib 5
+Declare string vs0 " AC"
+Add int_accum int_accum ib
+SelfAdd ia 5
+Add int_accum ia int_accum
+Declare int vi1 143
+Declare int vi2 105
+Add string_accum string_accum sa
+SelfAdd vi1 4
+Add string_accum sb sa
+SelfAdd int_accum 2
+SelfAdd sa "scope"
+SelfAdd sa "data"
+Declare string vs1 "scope"
+SelfAdd vs0 "scope"
+Declare int vi3 286
+Declare int vi4 -252
+SelfAdd vi4 2
+Declare string vs2 " profile"
+Declare int vi5 227
+SelfAdd vi5 1
+SelfAdd vs1 "test"
+SelfAdd ib 1
+SelfAdd vi3 3
+Add string_accum vs1 vs2
+SelfAdd vs1 " M"
+Declare string vs3 " AC"
+Add int_accum ib vi0
+Declare string vs4 " profile"
+Add string_accum sb vs1
+Declare int vi6 209
+SelfAdd vi3 2
+SelfAdd vi3 3
+SelfAdd vi4 3
+SelfAdd vi3 4
+SelfAdd string_accum " M"
+SelfAdd vi0 3
+Add string_accum vs1 vs3
+SelfAdd vi3 5
+SelfAdd sb "test"
+SelfAdd ib 2
+Add int_accum vi4 vi2
+SelfAdd vs3 "data"
+SelfAdd vs3 "test"
+SelfAdd ia 1
+Add int_accum vi4 ib
+SelfAdd ib 5
+SelfAdd sa "Scope"
+Declare int vi7 98
+SelfAdd vi0 2
+SelfAdd vi6 4
+Add string_accum sb vs3
+SelfAdd ia 4
+Declare string vs5 " profile"
+Declare string vs6 "case"
+Add string_accum sa string_accum
+SelfAdd vs3 " ACScope"
+Add string_accum vs3 vs5
+SelfAdd vs2 " ACdata"
+Declare int vi8 -21
+SelfAdd vi7 2
+SelfAdd vi8 5
+Declare int vi9 -170
+SelfAdd vi2 3
+Add string_accum sa sa
+Declare string vs7 "bench"
+Declare string vs8 " randombench"
+Declare string vs9 "case"
+SelfAdd vs7 "scope"
+Declare int vi10 125
+SelfAdd vi3 3
+SelfAdd vs4 " randomtest"
+SelfAdd ia 5
+Declare string vs10 " profile"
+SelfAdd ib 4
+Add string_accum string_accum vs0
+Declare int vi11 151
+Declare int vi12 137
+Add int_accum vi10 vi10
+SelfAdd sb " random"
+SelfAdd vi10 5
+SelfAdd string_accum "benchscope"
+SelfAdd vi0 4
+Add string_accum vs9 vs10
+Add string_accum vs3 sb
+SelfAdd int_accum 4
+SelfAdd vs4 "bench"
+SelfAdd vs5 "Scope"
+Declare string vs11 "Scope SJTU"
+SelfAdd vi11 1
+Add string_accum vs1 vs11
+Declare int vi13 37
+SelfAdd vs9 " M"
+SelfAdd sb " M"
+Add int_accum vi0 vi10
+SelfAdd vs1 "bench M"
+Add string_accum vs4 vs3
+Add int_accum vi2 vi6
+Add int_accum ia vi10
+SelfAdd vs0 " SJTU"
+Add string_accum vs4 sb
+SelfAdd vi10 1
+SelfAdd vi8 5
+Add string_accum vs1 sb
+SelfAdd vi2 4
+SelfAdd vi13 1
+SelfAdd ib 1
+Declare string vs12 " random"
+SelfAdd vs7 "casecase"
+SelfAdd vi1 4
+SelfAdd vi0 3
+SelfAdd vi13 2
+Declare string vs13 " random"
+Declare int vi14 -137
+SelfAdd sb "case"
+Add int_accum vi0 vi2
+Add int_accum vi11 vi8
+Add int_accum vi9 vi8
+SelfAdd vi9 1
+Add int_accum vi0 vi10
+Add string_accum vs13 sa
+SelfAdd vi5 4
+SelfAdd sb "scope"
+Add string_accum vs0 vs6
+Add string_accum sa vs10
+Declare string vs14 "test"
+Declare int vi15 436
+SelfAdd vi1 3
+SelfAdd vs6 "case"
+Add int_accum vi14 vi13
+SelfAdd vi2 5
+Add string_accum vs7 sa
+Add string_accum vs13 vs1
+Add string_accum vs14 vs3
+Declare int vi16 460
+SelfAdd vi13 2
+Add string_accum vs6 vs8
+Add int_accum int_accum int_accum
+SelfAdd ib 5
+Add int_accum ib vi12
+SelfAdd vs7 "bench profile"
+Add string_accum vs8 vs11
+Declare int vi17 -475
+SelfAdd vi4 5
+SelfAdd sb " M"
+Add int_accum vi0 vi16
+Add string_accum vs8 vs10
+Add int_accum vi6 vi10
+SelfAdd vi1 5
+Add string_accum sa vs13
+SelfAdd int_accum 5
+Declare int vi18 421
+Declare int vi19 -335
+SelfAdd vs0 " ACdata"
+SelfAdd vs14 " SJTUtest"
+SelfAdd vi15 3
+SelfAdd vi0 3
+SelfAdd vs10 " M profile"
+Declare int vi20 228
+SelfAdd vs13 " profile"
+SelfAdd sa " AC"
+SelfAdd vi18 3
+Add int_accum vi10 vi20
+SelfAdd vi17 4
+SelfAdd vi19 3
+SelfAdd vi15 5
+SelfAdd ib 5
+Declare int vi21 -124
+Add int_accum vi15 vi15
+SelfAdd vs2 "Scope"
+Declare int vi22 -326
+SelfAdd vi8 4
+SelfAdd vs12 "bench"
+Add string_accum vs13 vs7
+SelfAdd vi3 4
+SelfAdd sb "scope"
+SelfAdd vs3 " SJTU SJTU"
+Declare string vs15 "bench"
+SelfAdd vi20 1
+Declare int vi23 399
+Add string_accum vs4 vs5
+SelfAdd vs9 " SJTU"
+SelfAdd vs0 "scope"
+Declare string vs16 " Mbench"
+SelfAdd vi11 5
+Add string_accum vs1 vs15
+Declare string vs17 "case"
+Declare string vs18 "data"
+Print int_accum
+Print string_accum
+Add string_accum vs6 vs3
+SelfAdd vi15 1
+SelfAdd vi1 2
+SelfAdd vs4 " SJTU"
+SelfAdd vi16 1
+Declare int vi24 432
+Add string_accum vs14 vs7
+SelfAdd vs10 " random"
+Add int_accum vi4 vi22
+Add int_accum vi0 vi14
+Add int_accum vi17 vi8
+SelfAdd vs1 "bench"
+SelfAdd ia 3
+Add int_accum vi0 int_accum
+SelfAdd vi8 4
+Declare int vi25 -323
+SelfAdd vs12 "case"
+Add string_accum vs7 vs7
+SelfAdd vs4 "case"
+SelfAdd ia 5
+SelfAdd int_accum 4
+SelfAdd vi9 1
+Add int_accum vi1 vi22
+SelfAdd vi24 3
+Declare int vi26 -116
+Add string_accum vs4 vs12
+Declare int vi27 456
+Add int_accum int_accum vi19
+Add int_accum int_accum vi4
+Declare int vi28 324
+Declare int vi29 358
+SelfAdd vi5 3
+SelfAdd vi4 3
+SelfAdd int_accum 1
+SelfAdd vs4 " AC"
+SelfAdd vs8 "scope"
+Declare int vi30 487
+SelfAdd vi17 1
+SelfAdd vi26 3
+SelfAdd int_accum 4
+Declare int vi31 267
+Add string_accum vs4 vs5
+Add int_accum ia ia
+SelfAdd vi16 4
+SelfAdd vi27 4
+SelfAdd vi23 3
+SelfAdd vs14 " random"
+SelfAdd vi0 2
+Declare string vs19 "test"
+SelfAdd vi3 2
+SelfAdd vi4 3
+Declare int vi32 -109
+SelfAdd vs8 "Scope profile"
+Declare string vs20 "case"
+Add string_accum vs13 vs15
+SelfAdd vi16 2
+SelfAdd vi29 3
+SelfAdd vi24 4
+SelfAdd vs18 " Mtest"
+Add int_accum vi26 vi6
+Declare string vs21 " Mbench"
+SelfAdd vi31 4
+SelfAdd vs15 "data"
+SelfAdd vi22 3
+SelfAdd vi10 1
+Add int_accum vi5 vi30
+SelfAdd vs0 " random"
+SelfAdd vi16 5
+SelfAdd vs11 " M"
+Declare int vi33 -55
+SelfAdd vi29 2
+SelfAdd vi9 1
+SelfAdd vs2 "test"
+SelfAdd vs13 "test"
+Add string_accum sb vs1
+SelfAdd vs5 "bench"
+Add int_accum vi4 vi21
+Add string_accum vs9 vs7
+SelfAdd vi9 5
+SelfAdd ia 2
+SelfAdd vi8 4
+SelfAdd vi0 3
+SelfAdd vi13 1
+Declare int vi34 -109
+SelfAdd vs15 " AC"
+Declare string vs22 "bench"
+SelfAdd vi31 1
+Declare string vs23 " random"
+SelfAdd vi30 2
+SelfAdd vi10 4
+SelfAdd int_accum 1
+SelfAdd vs2 "data"
+Add string_accum vs21 vs6
+Add string_accum vs10 vs10
+Add string_accum vs14 vs6
+SelfAdd vs15 " AC"
+SelfAdd vi24 4
+Add string_accum sa sb
+Declare string vs24 "bench profile"
+SelfAdd vi17 2
+Add string_accum vs19 vs16
+Add int_accum vi19 vi24
+Declare string vs25 " profile"
+Declare string vs26 "bench"
+SelfAdd vi18 4
+Add int_accum vi6 vi26
+Declare int vi35 436
+Add int_accum vi3 vi20
+Add int_accum vi35 vi22
+SelfAdd vs11 " profile"
+Declare int vi36 215
+SelfAdd vs23 "scope"
+SelfAdd vs9 " profile"
+SelfAdd string_accum "case"
+Declare int vi37 -119
+SelfAdd string_accum " AC"
+Declare string vs27 "data SJTU"
+SelfAdd int_accum 1
+SelfAdd vi26 3
+SelfAdd vi35 1
+Add string_accum vs26 string_accum
+SelfAdd vs12 "case"
+SelfAdd vi34 5
+SelfAdd vi14 4
+Declare string vs28 " AC profile"
+SelfAdd vs1 "bench"
+Declare int vi38 -429
+SelfAdd vi30 2
+SelfAdd vi7 4
+SelfAdd vs10 "scopescope"
+Add int_accum vi16 vi14
+Add string_accum vs26 vs0
+SelfAdd vs24 "data"
+SelfAdd vi33 3
+SelfAdd string_accum " AC"
+Declare int vi39 207
+SelfAdd vs25 "bench"
+SelfAdd vs7 "Scope"
+SelfAdd vi23 3
+Add string_accum string_accum string_accum
+Add string_accum vs7 sa
+SelfAdd vs5 " AC"
+SelfAdd vi9 4
+SelfAdd vi14 1
+Declare int vi40 292
+SelfAdd sb " random"
+SelfAdd vi18 4
+SelfAdd vi16 4
+SelfAdd vs1 " M M"
+SelfAdd sb " profile"
+Add int_accum vi3 ib
+Declare string vs29 " M"
+Add string_accum vs28 vs1
+SelfAdd vi22 5
+Declare int vi41 125
+SelfAdd sa "Scopetest"
+Declare string vs30 " SJTU"
+SelfAdd vi16 3
+Add string_accum vs23 vs0
+Declare int vi42 108
+Declare int vi43 -287
+SelfAdd vi40 1
+SelfAdd vi9 3
+SelfAdd vs14 "bench"
+SelfAdd vi14 3
+Add string_accum vs18 vs30
+SelfAdd vs11 "scope"
+Declare int vi44 43
+SelfAdd sb "scopeScope"
+SelfAdd vi20 5
+SelfAdd vs26 "data"
+Add string_accum vs27 vs22
+SelfAdd vs15 "bench"
+Declare int vi45 -419
+SelfAdd vi19 4
+SelfAdd vi4 4
+Declare int vi46 -219
+Add int_accum vi31 vi2
+Add int_accum vi21 vi0
+SelfAdd vi1 1
+Declare int vi47 290
+SelfAdd vi10 5
+SelfAdd vi42 2
+Add int_accum vi19 vi15
+Declare string vs31 "case"
+Add string_accum vs16 vs19
+Declare int vi48 -326
+Declare int vi49 183
+Add int_accum vi32 vi37
+Add int_accum vi39 vi29
+Add int_accum vi8 vi40
+Add string_accum vs22 vs26
+SelfAdd vs26 " M"
+Add string_accum vs6 vs7
+Add int_accum vi18 vi15
+SelfAdd vs9 "Scope"
+SelfAdd vs12 " random"
+SelfAdd vi3 5
+Add int_accum vi13 vi13
+Add string_accum vs15 vs10
+Print int_accum
+Print string_accum
+SelfAdd vi21 2
+SelfAdd vi31 3
+Add int_accum vi6 vi6
+SelfAdd vs31 " randomcase"
+Add int_accum vi6 vi45
+SelfAdd vs29 "case"
+Add int_accum vi6 vi25
+SelfAdd vi30 1
+Add int_accum vi27 vi7
+SelfAdd vi8 1
+SelfAdd vi27 5
+Add string_accum vs4 vs18
+Declare int vi50 -22
+Declare int vi51 -493
+SelfAdd vs27 " SJTU"
+SelfAdd vs11 " random"
+SelfAdd vi3 2
+SelfAdd vs28 "test"
+SelfAdd vi42 4
+SelfAdd vs3 "case"
+SelfAdd vs31 " ACdata"
+SelfAdd vi7 3
+SelfAdd vs23 "data"
+SelfAdd vs15 "case"
+SelfAdd sb " random"
+Declare int vi52 421
+Add string_accum vs5 vs17
+SelfAdd vs25 " ACbench"
+SelfAdd vi15 4
+SelfAdd ib 5
+SelfAdd sb " SJTU"
+Declare int vi53 415
+Add int_accum vi21 vi32
+Declare string vs32 "scope"
+SelfAdd vs2 "test"
+SelfAdd vs29 " random random"
+SelfAdd vs14 " profile"
+SelfAdd vs27 "bench"
+SelfAdd vi51 3
+SelfAdd vs8 " AC"
+Add int_accum vi33 vi39
+SelfAdd vs2 "bench"
+SelfAdd vi46 5
+Add string_accum vs14 string_accum
+SelfAdd vs12 " profile"
+SelfAdd vi53 5
+Declare string vs33 "case"
+SelfAdd vi34 5
+Add int_accum vi4 vi7
+Add string_accum vs22 vs2
+Add string_accum vs29 vs2
+Declare int vi54 -118
+Declare int vi55 -35
+Add string_accum vs7 vs8
+Add string_accum vs18 vs15
+Declare string vs34 "data"
+Declare int vi56 194
+SelfAdd vi10 5
+SelfAdd ib 5
+Add string_accum vs1 string_accum
+SelfAdd vi38 3
+SelfAdd vi7 1
+SelfAdd vs17 " random"
+SelfAdd vi0 2
+Add string_accum vs7 vs26
+SelfAdd vs15 "bench"
+SelfAdd sa "case"
+SelfAdd vi49 1
+Add int_accum vi1 vi39
+SelfAdd vs24 " SJTU"
+Declare string vs35 " SJTU M"
+SelfAdd vs10 " profile"
+Add string_accum vs9 vs19
+Add string_accum vs34 vs8
+SelfAdd vs21 " random"
+Declare string vs36 "data profile"
+Declare string vs37 "case"
+Declare string vs38 "data"
+SelfAdd vi13 1
+Add string_accum vs18 vs6
+SelfAdd vs22 "test"
+Declare string vs39 "scope"
+Declare int vi57 -19
+SelfAdd vi26 5
+SelfAdd vi46 2
+Declare int vi58 24
+SelfAdd vi0 5
+SelfAdd vs31 " profile"
+Add string_accum vs30 sa
+SelfAdd vi38 3
+SelfAdd vi11 1
+SelfAdd vs37 "data"
+SelfAdd vs10 "Scope"
+SelfAdd vi54 1
+Add string_accum vs5 vs16
+SelfAdd vi44 3
+SelfAdd vs13 "bench"
+SelfAdd vi32 1
+SelfAdd vs34 "bench"
+Declare int vi59 -359
+SelfAdd vs2 "Scopedata"
+SelfAdd vs16 "bench"
+Add int_accum vi6 ia
+Add int_accum vi40 vi51
+SelfAdd ib 4
+Add int_accum vi52 vi14
+Declare int vi60 -385
+Add int_accum vi50 vi49
+SelfAdd vs5 "test"
+Declare int vi61 401
+SelfAdd vs36 "test"
+SelfAdd vi6 3
+Add int_accum vi11 vi9
+SelfAdd vs19 "test"
+SelfAdd vi36 5
+SelfAdd vi24 4
+Add int_accum vi0 vi58
+Add string_accum vs5 vs8
+Add string_accum vs21 sa
+Add int_accum vi46 vi61
+SelfAdd vi42 3
+Add string_accum vs27 vs3
+SelfAdd vs1 " M"
+Declare int vi62 90
+SelfAdd vs14 " M"
+SelfAdd vs36 "scope"
+Add string_accum sb vs39
+Declare int vi63 239
+Declare string vs40 "test"
+SelfAdd vs40 " profile"
+Declare string vs41 "bench"
+Declare int vi64 433
+Declare int vi65 28
+Add int_accum vi64 vi61
+Add int_accum vi51 vi3
+SelfAdd vs14 " SJTU"
+Add string_accum vs31 vs19
+Declare int vi66 206
+Add int_accum vi24 vi1
+Declare string vs42 "case"
+Add int_accum vi12 vi2
+SelfAdd vi37 3
+SelfAdd string_accum " profiletest"
+Declare string vs43 "data"
+SelfAdd vi2 2
+SelfAdd ib 1
+SelfAdd vs6 "bench"
+SelfAdd vi43 2
+Declare int vi67 438
+SelfAdd vi39 1
+Declare int vi68 -91
+SelfAdd vs25 "Scope"
+Add int_accum vi68 vi59
+Declare int vi69 -216
+SelfAdd vs19 "casetest"
+Add int_accum vi33 vi40
+Add string_accum vs7 vs36
+SelfAdd vs6 "data"
+SelfAdd vi15 5
+SelfAdd vs36 " AC profile"
+Add string_accum string_accum vs8
+Add string_accum vs7 vs14
+Declare string vs44 "Scope"
+Add string_accum vs13 vs10
+SelfAdd vs12 "bench"
+Add int_accum int_accum vi35
+SelfAdd vs27 " profile"
+Declare int vi70 71
+Add string_accum vs35 sb
+Declare int vi71 -98
+Add string_accum vs43 vs22
+Declare int vi72 -44
+SelfAdd vs41 "Scope"
+Declare int vi73 114
+Add string_accum vs12 vs12
+Add int_accum vi10 vi62
+SelfAdd vs18 "bench"
+Add string_accum vs12 vs17
+Declare string vs45 "scopetest"
+SelfAdd vi14 1
+Declare string vs46 "Scope"
+Add string_accum vs22 vs13
+SelfAdd vi69 3
+SelfAdd vs6 "scope"
+Declare int vi74 101
+Add string_accum vs0 vs17
+SelfAdd string_accum "test"
+SelfAdd vs14 " profile"
+SelfAdd vi59 5
+Add int_accum vi49 vi36
+Declare int vi75 -214
+Declare int vi76 -461
+SelfAdd vs35 "test"
+SelfAdd vi42 4
+SelfAdd vi61 3
+SelfAdd vs26 "Scopedata"
+SelfAdd vi52 3
+Add int_accum vi72 vi50
+Add string_accum vs8 vs30
+SelfAdd vi59 4
+Print int_accum
+Print string_accum
+SelfAdd vi1 4
+Declare int vi77 72
+SelfAdd vs6 "Scope"
+Declare int vi78 232
+SelfAdd vi67 5
+Declare string vs47 "test"
+Add string_accum vs46 vs24
+SelfAdd vs46 "scope AC"
+Declare string vs48 "Scope"
+SelfAdd sa " SJTU"
+Add int_accum vi46 vi49
+SelfAdd vs8 " random"
+SelfAdd vs3 " random"
+Add string_accum vs0 vs46
+Add int_accum vi71 vi12
+SelfAdd vi8 4
+SelfAdd vs43 " SJTU"
+SelfAdd vi63 5
+Add string_accum vs20 vs35
+Declare int vi79 -437
+SelfAdd vi38 2
+Add int_accum vi47 vi60
+SelfAdd vi58 2
+SelfAdd vi3 4
+SelfAdd vs44 "scope"
+SelfAdd vi12 4
+Add string_accum vs14 vs44
+SelfAdd vs1 " M"
+Add int_accum vi68 vi19
+Declare int vi80 -313
+Add string_accum vs34 vs47
+Declare string vs49 " Mbench"
+Add string_accum vs45 string_accum
+SelfAdd vs40 " SJTU"
+SelfAdd vs34 " AC"
+SelfAdd vi80 2
+SelfAdd vs18 "test"
+Add int_accum vi71 vi58
+Add string_accum vs5 vs8
+Add string_accum string_accum vs0
+SelfAdd vi16 5
+Declare int vi81 -262
+Declare int vi82 -166
+Add int_accum vi28 vi23
+SelfAdd vs43 "bench"
+SelfAdd vs46 "test"
+SelfAdd string_accum "test SJTU"
+SelfAdd vs35 "caseScope"
+SelfAdd vi12 2
+Add string_accum vs36 vs10
+SelfAdd vs39 "bench"
+Add string_accum vs1 vs34
+Add string_accum vs40 vs3
+SelfAdd vs8 " M"
+Add string_accum vs31 vs23
+SelfAdd vs6 "Scope"
+Add string_accum vs19 vs23
+Declare int vi83 120
+Add int_accum vi71 vi63
+SelfAdd vs20 "caseScope"
+SelfAdd vs35 " AC"
+SelfAdd vi34 3
+Add string_accum vs43 vs32
+Declare int vi84 354
+Add int_accum vi20 vi75
+Declare string vs50 " AC"
+SelfAdd vi72 2
+SelfAdd vs42 "bench"
+SelfAdd vs39 "bench"
+Add string_accum vs11 vs28
+Declare string vs51 "scope"
+Add int_accum vi74 vi26
+Add string_accum vs30 vs7
+Add int_accum vi82 vi74
+SelfAdd vi5 3
+SelfAdd int_accum 2
+SelfAdd vs48 " SJTU"
+SelfAdd vs8 " AC"
+SelfAdd vi80 3
+Add int_accum vi62 vi14
+Add string_accum vs35 vs26
+SelfAdd vs25 "bench"
+SelfAdd vs4 "Scope"
+SelfAdd vs19 "Scope"
+Declare int vi85 -249
+Add int_accum vi65 vi61
+SelfAdd ib 2
+SelfAdd vs44 "scope"
+Declare string vs52 " random"
+SelfAdd vs15 "bench"
+SelfAdd vi5 3
+SelfAdd vs8 "scope"
+SelfAdd vi81 1
+Declare int vi86 -186
+SelfAdd vi11 4
+SelfAdd vi63 2
+SelfAdd vs5 " random"
+SelfAdd vi34 3
+Add string_accum vs0 vs39
+SelfAdd vi35 4
+Add string_accum vs12 vs6
+Declare int vi87 120
+SelfAdd vi10 1
+SelfAdd vi55 2
+SelfAdd vs31 "test"
+SelfAdd vi17 1
+Add string_accum vs38 vs24
+SelfAdd vs29 "Scope SJTU"
+Declare string vs53 " AC"
+Declare string vs54 "bench profile"
+SelfAdd vs14 "benchcase"
+SelfAdd vi13 2
+SelfAdd vs23 " AC"
+SelfAdd vi50 5
+Declare string vs55 " SJTU"
+Declare string vs56 "case"
+SelfAdd vs7 "testScope"
+Add int_accum vi40 vi4
+Declare string vs57 " M"
+Add string_accum vs5 vs26
+SelfAdd vs29 " SJTU"
+SelfAdd vs32 " SJTU"
+Declare string vs58 " random"
+Declare int vi88 9
+SelfAdd vs9 "scope"
+SelfAdd vs13 " AC"
+SelfAdd vs28 "bench"
+Add string_accum string_accum vs58
+Add string_accum vs10 vs40
+SelfAdd vi15 4
+SelfAdd vi43 2
+SelfAdd vi54 4
+SelfAdd vs26 "scope"
+SelfAdd vi42 4
+Declare string vs59 " M"
+SelfAdd vs7 "Scope"
+Add int_accum vi56 vi55
+SelfAdd vi51 5
+SelfAdd vi15 1
+SelfAdd vs41 " M"
+Declare int vi89 -293
+Add string_accum vs55 vs32
+SelfAdd vi15 4
+SelfAdd vs10 " ACscope"
+Declare int vi90 464
+SelfAdd vs29 "scope"
+SelfAdd vi2 3
+SelfAdd vi66 1
+Declare int vi91 126
+SelfAdd vs15 " profile"
+Add string_accum vs0 vs50
+SelfAdd vs26 "data"
+SelfAdd vi78 5
+SelfAdd vi56 4
+Add string_accum vs15 vs7
+SelfAdd vs39 "case"
+SelfAdd vi31 1
+Declare int vi92 -28
+Add string_accum vs49 vs7
+SelfAdd vi8 1
+Add int_accum vi3 vi22
+SelfAdd vs24 " ACScope"
+SelfAdd vs54 "case"
+Declare int vi93 40
+Declare int vi94 178
+SelfAdd vi17 1
+Add int_accum vi79 vi28
+SelfAdd vs20 "scope"
+SelfAdd vs54 " M"
+Add int_accum vi65 vi87
+Add int_accum vi31 vi94
+SelfAdd vs20 "Scopebench"
+SelfAdd vs1 " M"
+SelfAdd vi73 4
+Add int_accum vi93 vi56
+Add string_accum vs53 vs7
+Declare int vi95 -82
+SelfAdd vs35 "scope"
+SelfAdd vi35 1
+Declare string vs60 "bench"
+SelfAdd vi49 3
+Add string_accum vs3 vs55
+Declare int vi96 123
+SelfAdd vs21 "case"
+Declare string vs61 "testtest"
+SelfAdd vi26 5
+SelfAdd vs54 "data"
+SelfAdd ib 4
+SelfAdd vs31 " random"
+Declare int vi97 -327
+SelfAdd vs41 " SJTU"
+Add int_accum vi56 vi11
+SelfAdd vs21 "case"
+Add int_accum vi92 vi85
+Declare string vs62 "scope profile"
+SelfAdd vs29 "data"
+SelfAdd vi29 5
+SelfAdd vs56 " profile"
+Add int_accum vi60 vi52
+Declare string vs63 " AC"
+Print int_accum
+Print string_accum
+SelfAdd vi69 2
+SelfAdd vs57 "scope"
+SelfAdd vs4 "data SJTU"
+Declare int vi98 -445
+Add string_accum vs21 vs24
+SelfAdd vs23 "Scope"
+SelfAdd vs54 " M"
+SelfAdd vi60 2
+SelfAdd vs42 "datatest"
+SelfAdd vi73 1
+Add string_accum vs13 vs58
+Declare int vi99 228
+Add int_accum vi61 vi80
+Declare int vi100 427
+Add string_accum vs23 vs55
+SelfAdd vs35 "Scope"
+Declare string vs64 "test"
+Declare int vi101 -405
+SelfAdd vi81 1
+SelfAdd vs42 "scope"
+SelfAdd vi14 4
+Declare int vi102 339
+Add int_accum vi36 vi55
+Declare string vs65 " SJTU profile"
+SelfAdd vs23 "bench M"
+SelfAdd vs13 " SJTU"
+Declare string vs66 "Scope"
+SelfAdd vi13 4
+Add int_accum vi21 int_accum
+Add int_accum vi41 vi73
+Declare int vi103 -204
+Add int_accum vi94 vi34
+Add int_accum vi15 vi71
+SelfAdd vs20 " AC"
+SelfAdd vs47 "data"
+Add string_accum vs4 vs60
+SelfAdd vs65 " profile"
+Declare string vs67 " random"
+Declare int vi104 -37
+Declare int vi105 179
+Declare string vs68 " AC"
+SelfAdd vs59 " AC"
+Add int_accum vi38 vi87
+Declare string vs69 "scope"
+Declare int vi106 268
+SelfAdd vs29 " AC"
+SelfAdd vs5 "data"
+SelfAdd vi0 3
+SelfAdd vi93 1
+SelfAdd vi87 1
+SelfAdd vi56 2
+Declare int vi107 -291
+Declare int vi108 139
+Declare int vi109 -153
+SelfAdd vs61 "Scope"
+Add string_accum vs6 vs65
+SelfAdd vs41 "bench"
+Declare int vi110 111
+Declare int vi111 135
+SelfAdd vs28 " SJTU"
+SelfAdd vi73 5
+SelfAdd vs26 " profile"
+SelfAdd vi105 1
+Add int_accum vi54 vi38
+SelfAdd vi14 3
+SelfAdd vi15 5
+Add string_accum vs7 vs33
+SelfAdd vi55 2
+SelfAdd vs11 " profile"
+Add int_accum vi73 vi86
+SelfAdd vi89 1
+Declare string vs70 " AC"
+Add string_accum vs29 vs11
+SelfAdd vi50 1
+SelfAdd vi75 3
+SelfAdd vi73 1
+SelfAdd vs46 "Scope"
+Add int_accum vi12 vi36
+Add int_accum vi11 vi69
+SelfAdd vi74 2
+Declare int vi112 -270
+Declare string vs71 "scope"
+Add string_accum vs31 vs71
+SelfAdd vi95 4
+SelfAdd vi61 5
+Declare string vs72 "data"
+Add string_accum vs35 vs65
+Add int_accum vi51 vi87
+SelfAdd vs5 "Scope"
+SelfAdd vi69 4
+SelfAdd vs54 "case"
+SelfAdd vi107 2
+Declare int vi113 -291
+Declare int vi114 298
+Add string_accum vs44 vs68
+SelfAdd vs41 "data"
+Add int_accum vi100 vi13
+Add string_accum vs54 vs33
+Add string_accum vs4 vs3
+Declare string vs73 "databench"
+Add int_accum vi90 vi22
+Declare int vi115 42
+Add int_accum vi77 vi49
+SelfAdd vs30 " SJTU"
+Add int_accum vi93 vi44
+Declare int vi116 264
+SelfAdd vi35 4
+Add string_accum vs21 vs13
+Add string_accum vs42 vs23
+SelfAdd vs4 "Scope"
+Declare string vs74 "bench"
+Add int_accum vi112 vi113
+Add string_accum sb vs49
+Add int_accum vi16 vi113
+SelfAdd vi70 5
+SelfAdd vs43 "bench"
+SelfAdd vs73 "data"
+SelfAdd vs61 "bench"
+SelfAdd vi81 1
+Add int_accum vi42 vi68
+SelfAdd vi101 4
+SelfAdd vi41 3
+Declare int vi117 214
+Add string_accum vs16 vs53
+SelfAdd vs41 " SJTUscope"
+Add int_accum vi71 vi81
+Declare string vs75 " random"
+Add string_accum string_accum vs44
+Declare int vi118 459
+SelfAdd vi96 4
+SelfAdd vi93 2
+Declare string vs76 " random"
+SelfAdd vi29 1
+SelfAdd vs35 " SJTU"
+Add int_accum vi37 vi21
+Declare string vs77 "case"
+SelfAdd vs62 " ACscope"
+SelfAdd vi99 4
+Add string_accum vs12 vs35
+Add int_accum vi45 vi79
+SelfAdd vs43 "Scope"
+SelfAdd sa " profile"
+SelfAdd vs0 " profile M"
+Add string_accum vs59 vs51
+SelfAdd vi43 1
+SelfAdd vs37 " random profile"
+SelfAdd vs63 " AC"
+Add int_accum vi28 vi64
+SelfAdd vi46 2
+Add int_accum vi45 vi92
+Add string_accum vs70 vs74
+Declare int vi119 49
+Declare string vs78 " random"
+SelfAdd vi52 5
+Declare string vs79 " SJTU"
+SelfAdd vi88 3
+SelfAdd vs41 " random"
+Declare string vs80 " SJTU"
+Add int_accum vi85 vi94
+Declare int vi120 -190
+SelfAdd vs8 " random"
+SelfAdd vs13 "datacase"
+SelfAdd vs39 "data"
+SelfAdd vs57 " ACScope"
+SelfAdd vi68 5
+SelfAdd vs45 "test"
+SelfAdd vi97 2
+Add int_accum vi20 vi15
+SelfAdd vi82 5
+Declare int vi121 222
+SelfAdd vs43 " AC"
+SelfAdd vs11 " AC"
+Add int_accum vi119 vi99
+Declare int vi122 294
+SelfAdd vs11 " M"
+SelfAdd vs46 "data M"
+Add int_accum vi2 vi2
+Add int_accum vi92 vi87
+Add string_accum vs61 vs42
+Add int_accum vi121 vi29
+Add string_accum vs71 vs56
+Declare int vi123 413
+SelfAdd vs18 "Scope"
+SelfAdd vs60 "scope"
+SelfAdd vi46 4
+Add int_accum vi99 ib
+SelfAdd vi106 1
+Add string_accum vs26 vs21
+Declare string vs81 "Scope"
+SelfAdd vs38 " M SJTU"
+SelfAdd vi60 3
+Add string_accum vs50 string_accum
+Add int_accum int_accum vi108
+SelfAdd sa " SJTU AC"
+SelfAdd vi0 3
+SelfAdd vi90 3
+SelfAdd vi50 5
+Declare string vs82 "case"
+Add string_accum vs59 vs5
+SelfAdd vs11 "scope"
+Print int_accum
+Print string_accum
+Add string_accum vs51 vs25
+SelfAdd vs23 "data"
+SelfAdd vi89 3
+Add int_accum vi93 vi25
+SelfAdd vi60 1
+SelfAdd vs77 " profiledata"
+Declare int vi124 44
+SelfAdd vi114 4
+SelfAdd vi26 3
+Add int_accum ia vi99
+SelfAdd vs55 " SJTU"
+Declare int vi125 374
+SelfAdd vs29 "bench"
+SelfAdd vi45 3
+SelfAdd vi53 4
+Declare string vs83 "bench"
+SelfAdd vi82 3
+Add int_accum vi125 vi28
+SelfAdd vs0 "case"
+Declare string vs84 " profile"
+SelfAdd vi36 2
+Add string_accum vs22 vs7
+SelfAdd vi117 2
+Declare int vi126 450
+Add int_accum vi97 vi100
+SelfAdd vs38 "Scope"
+Declare string vs85 "scopebench"
+SelfAdd vi96 3
+SelfAdd vi50 3
+SelfAdd vi44 5
+SelfAdd vs78 "scope"
+Add int_accum vi83 vi57
+SelfAdd vs34 "case"
+SelfAdd vs22 "Scope"
+Add string_accum string_accum vs49
+SelfAdd vs16 " AC"
+SelfAdd vi60 5
+SelfAdd vi33 3
+SelfAdd vs70 "case"
+SelfAdd vi91 1
+SelfAdd vs78 " random"
+SelfAdd vi123 2
+Add int_accum vi29 vi63
+Declare string vs86 "case"
+SelfAdd vs39 "bench"
+Add string_accum vs31 vs82
+Declare string vs87 " profile"
+SelfAdd vs45 "ScopeScope"
+SelfAdd vs14 " SJTU"
+SelfAdd vi57 4
+SelfAdd vs31 " profile"
+SelfAdd vi32 5
+SelfAdd vs22 "scope"
+SelfAdd vi4 3
+SelfAdd vs74 " AC"
+SelfAdd vi99 1
+SelfAdd vi87 2
+Declare int vi127 -150
+Add int_accum vi105 vi65
+Declare string vs88 " profile"
+Add int_accum vi12 vi91
+SelfAdd vs52 "scope SJTU"
+Add int_accum vi76 vi37
+SelfAdd vi16 1
+Declare string vs89 "bench"
+SelfAdd vi122 1
+SelfAdd vs38 " M"
+Declare int vi128 -383
+SelfAdd vs49 "Scope random"
+SelfAdd vs2 " M"
+SelfAdd vi9 2
+SelfAdd vi121 4
+SelfAdd vi119 4
+Add string_accum string_accum vs51
+Declare int vi129 342
+SelfAdd vs70 "data"
+Declare string vs90 " profilecase"
+Declare int vi130 -114
+SelfAdd vs22 "bench"
+SelfAdd vs82 "case"
+Add int_accum vi14 vi29
+Add int_accum vi75 vi12
+Declare string vs91 " SJTU"
+Add string_accum vs10 vs70
+SelfAdd vi82 5
+SelfAdd vs91 "scope"
+SelfAdd vs45 "bench"
+SelfAdd vi126 2
+Declare int vi131 40
+SelfAdd vs67 "test"
+SelfAdd vs0 "test"
+Declare string vs92 " profiletest"
+SelfAdd vs72 "ScopeScope"
+Add int_accum vi27 vi113
+Declare string vs93 "case"
+SelfAdd vs60 "case"
+SelfAdd vi71 1
+SelfAdd vi64 2
+SelfAdd vi46 1
+Add int_accum vi95 vi73
+SelfAdd vs28 "bench"
+SelfAdd vs18 " profile"
+SelfAdd vi49 1
+SelfAdd vi93 5
+Add string_accum vs33 vs33
+Declare string vs94 "dataScope"
+SelfAdd vs3 "casescope"
+Declare int vi132 125
+Add string_accum vs15 vs13
+SelfAdd vs71 " ACScope"
+SelfAdd vi5 1
+Declare int vi133 424
+SelfAdd vs39 " random"
+SelfAdd vs71 "Scope profile"
+Add int_accum vi72 vi111
+SelfAdd vi34 5
+Declare string vs95 "scope"
+Declare int vi134 426
+Add string_accum vs0 vs4
+Declare int vi135 -307
+SelfAdd vs95 "test"
+Add int_accum vi8 vi10
+Add int_accum vi99 vi84
+SelfAdd vs14 "case"
+Add int_accum vi67 vi59
+SelfAdd vi106 1
+Declare string vs96 " random"
+SelfAdd vs65 "test"
+SelfAdd vs15 "data AC"
+Declare string vs97 "scope"
+Add int_accum vi33 vi104
+SelfAdd vi94 5
+SelfAdd vs67 " SJTU"
+SelfAdd vi119 5
+SelfAdd vi72 3
+SelfAdd vi127 2
+SelfAdd vi75 4
+Add int_accum vi48 vi55
+SelfAdd vs13 " AC"
+SelfAdd vs66 " profile"
+Add int_accum vi25 vi80
+SelfAdd vs17 " random"
+SelfAdd vs31 " M"
+Declare int vi136 -89
+SelfAdd vs70 " random"
+Add string_accum vs23 vs38
+Declare int vi137 -471
+SelfAdd vi90 2
+Add int_accum vi95 vi92
+SelfAdd vi109 5
+SelfAdd vs79 "bench"
+Add string_accum vs0 vs81
+SelfAdd vs67 "ScopeScope"
+SelfAdd vs68 " profile"
+Add int_accum vi27 vi26
+SelfAdd vi126 3
+Declare string vs98 " random"
+Add int_accum vi68 vi56
+Add int_accum vi92 vi69
+SelfAdd vi10 4
+SelfAdd vs72 "testdata"
+SelfAdd vi43 4
+SelfAdd vs54 " random"
+SelfAdd vi46 5
+SelfAdd vs23 "Scope"
+SelfAdd vi13 4
+Add string_accum vs33 vs25
+SelfAdd vs76 "scope"
+SelfAdd vi1 3
+Add string_accum vs33 vs16
+SelfAdd vs36 "case"
+SelfAdd vs72 " AC M"
+SelfAdd vs82 " profile"
+Add int_accum vi83 vi121
+Declare int vi138 -161
+Declare int vi139 -376
+SelfAdd vs10 "scopebench"
+SelfAdd vi41 1
+SelfAdd vi110 1
+Add string_accum vs20 vs89
+Declare int vi140 -159
+Add string_accum vs47 vs34
+Add int_accum vi45 vi25
+SelfAdd vs30 " AC SJTU"
+Add int_accum vi11 vi51
+SelfAdd vi67 5
+Add int_accum vi14 vi64
+Add string_accum vs91 vs65
+SelfAdd vi10 4
+Add string_accum vs18 string_accum
+Add int_accum vi111 vi58
+SelfAdd vs7 " random"
+SelfAdd vs58 "test"
+SelfAdd vi8 5
+SelfAdd vs19 " M"
+Add int_accum vi35 vi90
+SelfAdd vi65 4
+SelfAdd vs94 "test"
+Declare string vs99 " SJTU random"
+Declare int vi141 118
+Print int_accum
+Print string_accum
+SelfAdd vi34 2
+Add int_accum vi126 vi75
+Add string_accum vs37 vs92
+SelfAdd vs87 "Scope"
+SelfAdd vs9 " profile SJTU"
+SelfAdd vi111 1
+Add int_accum vi60 vi104
+Add string_accum sb vs42
+SelfAdd vs37 "scope"
+Declare string vs100 "testbench"
+SelfAdd vi71 3
+Declare string vs101 "test"
+SelfAdd vi136 3
+Declare string vs102 "bench"
+Declare int vi142 -64
+SelfAdd vs54 " M profile"
+SelfAdd vi47 1
+SelfAdd vi23 2
+SelfAdd vi52 5
+SelfAdd vs68 "data"
+SelfAdd vs3 "Scope"
+SelfAdd vs35 "bench"
+SelfAdd vi106 5
+Add int_accum vi14 vi19
+Declare string vs103 "test"
+SelfAdd vi21 1
+Declare string vs104 "scope AC"
+SelfAdd vi104 5
+SelfAdd vi91 3
+SelfAdd vi116 1
+SelfAdd vi115 2
+SelfAdd vi139 3
+SelfAdd vs13 "data"
+Add int_accum vi59 vi125
+SelfAdd vi75 3
+Add string_accum vs97 vs29
+Add int_accum ib vi71
+Add int_accum vi131 vi127
+SelfAdd vs73 "case"
+Add int_accum vi43 vi48
+SelfAdd vi100 4
+SelfAdd vi119 3
+SelfAdd vi40 1
+SelfAdd vi44 3
+SelfAdd vs58 " random AC"
+Declare string vs105 " random"
+Add int_accum vi59 vi125
+SelfAdd vi81 3
+SelfAdd vs32 " random"
+SelfAdd vi33 2
+Declare int vi143 482
+Declare int vi144 211
+Add string_accum vs39 vs95
+Add string_accum vs89 vs29
+SelfAdd vs79 "case"
+SelfAdd vi42 2
+SelfAdd vs0 "case"
+Declare int vi145 -118
+SelfAdd vi1 2
+SelfAdd vs62 "Scope"
+Add string_accum vs104 vs0
+Add int_accum vi131 vi134
+SelfAdd int_accum 5
+Declare int vi146 372
+SelfAdd vs40 "case"
+SelfAdd vi28 5
+Declare int vi147 232
+SelfAdd vi45 3
+SelfAdd vi41 3
+SelfAdd vi121 4
+Add string_accum vs47 vs55
+Add string_accum vs2 vs7
+Add string_accum vs103 vs20
+SelfAdd vs98 "data random"
+Add int_accum vi31 vi110
+SelfAdd vs9 " M"
+Add string_accum vs5 vs40
+Add int_accum vi29 vi94
+SelfAdd vs0 " profilescope"
+Add int_accum vi14 vi92
+Declare string vs106 " SJTU"
+Add string_accum vs57 vs59
+SelfAdd vs62 " M"
+SelfAdd vs101 "case"
+SelfAdd vi6 1
+SelfAdd vs44 "test"
+SelfAdd vs15 "casebench"
+Declare int vi148 -220
+Declare int vi149 -251
+Declare string vs107 " SJTU"
+SelfAdd vs1 "datadata"
+Add string_accum vs52 vs98
+SelfAdd vi96 2
+Declare int vi150 -404
+SelfAdd vi133 2
+SelfAdd vi114 2
+Add int_accum vi59 vi36
+Declare int vi151 450
+Declare string vs108 " Mbench"
+Add string_accum vs26 vs9
+SelfAdd vi58 5
+Declare string vs109 "datacase"
+Declare int vi152 -152
+Add string_accum vs55 vs27
+Declare int vi153 269
+SelfAdd vs76 " randomdata"
+Add int_accum vi49 vi90
+Add string_accum vs62 vs94
+SelfAdd vs98 " randomScope"
+Declare string vs110 "bench"
+Declare int vi154 -229
+Add string_accum vs59 vs50
+Declare int vi155 219
+SelfAdd vi99 2
+Declare int vi156 -85
+SelfAdd vi145 2
+Add string_accum vs64 vs85
+SelfAdd vi58 1
+SelfAdd vi110 1
+Declare int vi157 367
+SelfAdd vs109 " AC"
+Add int_accum vi15 vi51
+SelfAdd vi59 4
+SelfAdd vs62 " M"
+Add string_accum vs31 vs29
+SelfAdd vi127 1
+Add int_accum vi128 vi114
+SelfAdd vs4 "Scopedata"
+Add string_accum vs51 vs24
+Declare int vi158 -14
+SelfAdd vs79 "case"
+Declare string vs111 " random"
+SelfAdd vi140 3
+SelfAdd vs110 "Scope"
+SelfAdd vs111 " AC"
+SelfAdd vi35 5
+SelfAdd vi17 5
+SelfAdd vi112 2
+Add string_accum vs40 vs26
+Declare int vi159 -53
+SelfAdd vi48 2
+SelfAdd vs12 "bench"
+SelfAdd vs33 "testtest"
+SelfAdd vs55 "test"
+Declare int vi160 -82
+Declare string vs112 "data"
+Add int_accum vi100 vi136
+Declare string vs113 " profile"
+SelfAdd vs29 "testtest"
+Add string_accum vs6 vs61
+SelfAdd vi126 4
+Add string_accum vs57 vs61
+Add string_accum vs20 vs24
+Add string_accum vs14 vs43
+SelfAdd vs12 "test"
+SelfAdd vi106 2
+Add int_accum vi127 vi130
+SelfAdd vs36 " AC M"
+Declare string vs114 " AC"
+SelfAdd vs88 "Scope"
+Add string_accum vs101 vs57
+Declare int vi161 -448
+Add int_accum vi3 vi18
+SelfAdd vs42 "casedata"
+Declare int vi162 233
+Declare string vs115 "scope"
+Declare int vi163 -485
+SelfAdd vi19 4
+SelfAdd vi46 2
+Declare int vi164 204
+Add string_accum vs109 vs70
+Declare int vi165 -168
+Declare int vi166 232
+SelfAdd vs84 " M"
+Add int_accum vi66 vi54
+Declare int vi167 432
+SelfAdd vs98 "Scope"
+Declare string vs116 "Scope"
+Add string_accum vs68 vs109
+SelfAdd vi97 4
+SelfAdd vs84 "scope"
+Declare string vs117 " AC"
+SelfAdd vs47 "Scope"
+Declare int vi168 -350
+SelfAdd string_accum "bench"
+Add int_accum vi145 vi52
+SelfAdd vs39 "Scopedata"
+Add string_accum vs107 vs66
+Declare string vs118 " SJTU"
+SelfAdd vi106 4
+Declare int vi169 -457
+SelfAdd vi158 1
+Declare string vs119 " profile"
+Add int_accum vi121 vi164
+SelfAdd vs99 " M"
+Add string_accum vs47 vs18
+Add string_accum vs96 vs44
+SelfAdd vi129 4
+SelfAdd vi158 5
+SelfAdd vs93 "data"
+Print int_accum
+Print string_accum
+SelfAdd vi116 1
+Add string_accum vs39 vs119
+SelfAdd vs60 " random"
+Add string_accum vs114 vs19
+SelfAdd vi82 3
+SelfAdd vs71 " profile"
+SelfAdd vi166 3
+SelfAdd vi59 3
+Add int_accum vi67 vi38
+SelfAdd vs36 " M"
+SelfAdd vi117 1
+Declare string vs120 "scope"
+SelfAdd vi130 1
+Declare string vs121 "case"
+Declare string vs122 "scope"
+SelfAdd vs69 "casetest"
+Declare int vi170 223
+SelfAdd vi3 4
+SelfAdd vi88 4
+SelfAdd vs9 "databench"
+SelfAdd vs108 " random"
+SelfAdd vs65 "bench SJTU"
+SelfAdd vi39 1
+SelfAdd vi95 1
+SelfAdd vi67 3
+SelfAdd vi89 4
+SelfAdd vi117 2
+SelfAdd vs7 "Scope"
+SelfAdd vi31 3
+Declare int vi171 -239
+Declare string vs123 "data"
+SelfAdd vs57 " profiletest"
+SelfAdd vs11 " M"
+SelfAdd vs13 "case"
+SelfAdd vi134 5
+Add int_accum vi164 vi36
+SelfAdd vi0 2
+SelfAdd vi160 2
+SelfAdd vi116 5
+Add int_accum vi13 vi154
+SelfAdd vi25 5
+Add int_accum vi128 vi151
+Add string_accum vs81 vs104
+Declare int vi172 353
+Declare int vi173 -260
+SelfAdd vs2 " random AC"
+Add int_accum int_accum vi131
+SelfAdd vs79 "data AC"
+Add int_accum vi154 vi84
+Add string_accum vs71 vs21
+Add string_accum vs113 vs42
+SelfAdd vs64 " AC"
+Add int_accum vi161 vi48
+SelfAdd vi74 2
+SelfAdd vi51 3
+Declare int vi174 -374
+SelfAdd vs33 "scope"
+Add int_accum vi73 vi13
+SelfAdd vi148 1
+SelfAdd vs33 " random"
+SelfAdd vs43 "bench"
+SelfAdd vi155 2
+SelfAdd vs32 " AC"
+Declare int vi175 -409
+Declare string vs124 " random"
+SelfAdd vs10 "test"
+Declare int vi176 129
+SelfAdd vs9 "test"
+Declare int vi177 -179
+SelfAdd vi45 2
+Add string_accum vs1 vs96
+SelfAdd vs77 " random"
+SelfAdd sb "databench"
+SelfAdd vi168 3
+Add int_accum vi18 vi126
+Add int_accum vi87 vi154
+SelfAdd vs8 "data AC"
+SelfAdd vi96 1
+SelfAdd vs67 "scope"
+SelfAdd vs77 "test"
+SelfAdd vs29 "Scope"
+SelfAdd vs47 "data"
+Add int_accum vi139 vi94
+Declare string vs125 "Scope"
+Add int_accum vi80 vi128
+SelfAdd vs87 " profile"
+Add int_accum vi24 vi120
+Declare int vi178 235
+Add int_accum vi63 vi113
+SelfAdd vi103 4
+SelfAdd vi104 5
+Add string_accum vs100 vs100
+Add string_accum vs23 vs5
+SelfAdd vi90 2
+SelfAdd vi111 1
+SelfAdd vi163 5
+SelfAdd vi75 3
+Add int_accum vi31 vi152
+SelfAdd vi112 5
+Add int_accum vi17 vi107
+SelfAdd vi110 2
+Add int_accum vi143 vi127
+SelfAdd vs55 "case"
+Add int_accum vi163 vi80
+Declare string vs126 "test"
+Add string_accum vs105 vs9
+SelfAdd vs29 " profile"
+SelfAdd vi7 1
+SelfAdd vs41 " M"
+Add string_accum vs123 vs75
+Add string_accum vs119 vs120
+Add int_accum vi72 vi92
+SelfAdd ib 2
+SelfAdd vi124 5
+SelfAdd vi35 3
+SelfAdd vs107 "data"
+Add string_accum vs113 vs9
+SelfAdd vi69 5
+Add string_accum vs114 vs88
+SelfAdd vi84 5
+Add string_accum vs76 vs103
+SelfAdd vi129 1
+SelfAdd vs32 "scope"
+Declare string vs127 "case"
+SelfAdd vs108 "Scope"
+SelfAdd vi68 5
+SelfAdd vi138 4
+SelfAdd vi93 1
+SelfAdd vi0 2
+Add int_accum vi47 vi162
+Add string_accum vs60 vs17
+Declare int vi179 -223
+SelfAdd vs82 " M"
+SelfAdd vs83 "scope"
+Add int_accum vi2 vi14
+SelfAdd vs101 "bench"
+Add string_accum vs2 vs9
+Declare int vi180 395
+SelfAdd vs16 " SJTU"
+Declare int vi181 25
+SelfAdd vi1 2
+Declare int vi182 441
+Declare string vs128 "scope"
+Add int_accum vi136 vi97
+SelfAdd vi118 3
+Add int_accum vi157 vi8
+SelfAdd vi66 1
+SelfAdd vs58 " random random"
+Add int_accum vi153 vi15
+Declare int vi183 -348
+Add string_accum vs61 vs1
+Add int_accum vi43 vi53
+Add string_accum vs97 vs6
+Declare int vi184 -389
+Declare int vi185 -469
+Declare int vi186 292
+SelfAdd vs52 " SJTU SJTU"
+Add string_accum vs8 vs37
+SelfAdd vi44 4
+Declare int vi187 76
+Add int_accum vi2 vi119
+SelfAdd vs114 "test"
+SelfAdd vi130 1
+Add string_accum vs26 vs79
+Declare string vs129 " M"
+SelfAdd string_accum "bench"
+SelfAdd vi154 5
+Declare string vs130 "case SJTU"
+SelfAdd vi137 2
+SelfAdd vs42 "data"
+Add int_accum vi135 vi112
+SelfAdd vs8 " profile"
+SelfAdd vs109 "case M"
+SelfAdd vi171 2
+Declare string vs131 "Scope"
+SelfAdd vs26 " M"
+SelfAdd vs9 "scope random"
+SelfAdd vs127 " AC"
+SelfAdd vs88 "test"
+Declare int vi188 -200
+SelfAdd vs111 "benchcase"
+Add int_accum vi125 vi101
+Add int_accum vi102 vi22
+Declare string vs132 " random"
+Add int_accum vi33 vi52
+Add string_accum vs76 vs58
+Declare string vs133 "Scope"
+SelfAdd vi106 5
+Add int_accum vi55 vi134
+SelfAdd vi157 2
+SelfAdd vs31 "test"
+SelfAdd vs93 "data"
+Add string_accum vs55 vs64
+SelfAdd vi40 4
+SelfAdd vs36 "case"
+SelfAdd vi62 5
+SelfAdd vi76 1
+SelfAdd vs58 " profile"
+SelfAdd ia 5
+SelfAdd vs89 " SJTU"
+Print int_accum
+Print string_accum
+SelfAdd vs46 "case"
+Add int_accum vi35 vi33
+SelfAdd vs87 " random"
+SelfAdd sb " M"
+SelfAdd vs130 "caseScope"
+SelfAdd vs112 " SJTU"
+SelfAdd vi126 5
+Declare int vi189 355
+Declare int vi190 444
+SelfAdd vs25 "test"
+Declare int vi191 -355
+Declare string vs134 " AC"
+SelfAdd vi185 3
+SelfAdd vs61 "data"
+Add int_accum vi30 vi60
+Declare string vs135 " M"
+Add string_accum vs49 vs129
+SelfAdd vs34 " AC"
+SelfAdd vi145 1
+Add string_accum vs72 vs27
+SelfAdd vi16 3
+Add string_accum vs30 vs126
+SelfAdd vi94 2
+SelfAdd vi56 5
+SelfAdd vi186 1
+SelfAdd vi7 1
+Add int_accum vi131 vi145
+SelfAdd vi53 4
+SelfAdd vi168 4
+Declare int vi192 350
+SelfAdd vi34 4
+SelfAdd vs15 "test"
+SelfAdd vs64 "Scopebench"
+Declare int vi193 -145
+Add int_accum vi78 vi148
+Declare string vs136 " AC"
+Add string_accum vs44 vs11
+Add string_accum vs71 vs35
+SelfAdd vs45 "test"
+Declare string vs137 " M"
+SelfAdd vi120 5
+Declare string vs138 " profile"
+SelfAdd vi130 5
+Add string_accum vs27 vs32
+Add int_accum vi15 vi117
+SelfAdd vs91 "case"
+SelfAdd vi190 2
+SelfAdd vi103 3
+Add int_accum vi95 vi1
+SelfAdd vs103 "bench"
+SelfAdd vs20 "data"
+Add string_accum vs92 vs97
+SelfAdd vs65 " random"
+Add string_accum vs27 vs74
+Add string_accum vs25 vs59
+Add int_accum vi68 vi123
+Add int_accum vi129 vi163
+SelfAdd vi170 3
+Add int_accum vi63 vi53
+SelfAdd vs107 " random"
+SelfAdd vs96 "bench"
+Declare string vs139 "data"
+SelfAdd vs48 "Scope"
+Add string_accum vs73 vs35
+SelfAdd vs134 "test"
+SelfAdd vs126 "data"
+SelfAdd vi177 1
+Declare int vi194 393
+SelfAdd vs34 "scope random"
+Add int_accum vi126 vi157
+Add int_accum vi25 vi79
+Add int_accum vi1 vi19
+Add string_accum vs122 vs27
+Declare string vs140 "test"
+SelfAdd vi98 2
+Add string_accum vs121 vs92
+Add string_accum vs94 vs81
+Declare int vi195 -221
+SelfAdd vs30 "bench M"
+SelfAdd vi117 4
+SelfAdd vi99 1
+SelfAdd vs60 " profile"
+Add int_accum vi155 vi135
+SelfAdd vs8 "case profile"
+Declare string vs141 "scopecase"
+Add int_accum vi59 vi184
+Add int_accum vi43 vi142
+SelfAdd vs96 " random"
+SelfAdd vi108 2
+SelfAdd vi1 2
+SelfAdd vi190 5
+Declare string vs142 "case"
+Declare string vs143 " random"
+SelfAdd vs143 " M"
+Declare int vi196 -17
+SelfAdd vi114 3
+Declare int vi197 422
+SelfAdd vi38 2
+Add int_accum vi115 vi56
+Add int_accum vi55 vi190
+SelfAdd vs3 " profile SJTU"
+Declare int vi198 -132
+SelfAdd vs38 "Scopetest"
+Add int_accum vi185 vi56
+Declare int vi199 354
+SelfAdd vi24 2
+Add int_accum vi136 vi130
+SelfAdd vi4 5
+SelfAdd vs30 "scope M"
+SelfAdd vs35 "bench profile"
+SelfAdd vi111 5
+SelfAdd vi49 3
+Declare int vi200 -312
+Declare int vi201 125
+Declare string vs144 " SJTU"
+SelfAdd vs38 "case"
+Add string_accum vs32 vs93
+SelfAdd vi65 2
+SelfAdd vs111 "test"
+SelfAdd vi135 4
+Add int_accum vi197 vi49
+Declare int vi202 -326
+Add int_accum vi62 vi60
+SelfAdd vs60 "bench"
+Declare int vi203 -91
+Declare string vs145 " profile"
+SelfAdd vs88 " profile"
+SelfAdd vs107 " SJTU"
+Add string_accum vs4 vs21
+SelfAdd vs130 "test"
+Add string_accum vs62 vs42
+Declare string vs146 "test"
+SelfAdd vs65 "test"
+Declare int vi204 -460
+Add int_accum vi163 vi168
+SelfAdd vi188 1
+SelfAdd vs11 " SJTU"
+SelfAdd vs31 "scope"
+SelfAdd vi26 3
+Declare string vs147 "Scope"
+SelfAdd vs87 " profile"
+Declare string vs148 "bench"
+SelfAdd vs14 " profile SJTU"
+SelfAdd vs101 " M"
+Add int_accum ib vi182
+Add int_accum vi32 vi77
+Declare int vi205 -315
+Declare string vs149 "data"
+Add int_accum vi145 vi89
+Add int_accum vi140 vi138
+SelfAdd vi184 3
+SelfAdd vs17 " AC"
+Add string_accum vs118 vs134
+Add int_accum vi28 vi28
+Add int_accum vi108 vi127
+SelfAdd vs16 " M"
+SelfAdd vi15 2
+Add int_accum vi149 vi67
+SelfAdd vi12 2
+Add string_accum vs55 vs21
+Add int_accum vi2 vi137
+Add int_accum vi113 vi25
+SelfAdd vi114 1
+Add int_accum vi194 vi109
+SelfAdd vi74 1
+Declare int vi206 72
+Declare int vi207 -76
+Declare int vi208 -478
+SelfAdd vs149 " SJTU"
+SelfAdd vs37 "Scope"
+Add int_accum vi32 vi95
+SelfAdd vi131 2
+SelfAdd vs106 " SJTU"
+Add string_accum vs80 vs83
+SelfAdd vs39 "casebench"
+SelfAdd vs131 "bench"
+SelfAdd vi201 4
+Add string_accum vs148 vs62
+Add int_accum vi152 vi118
+SelfAdd vi95 3
+Add string_accum vs84 vs118
+Declare string vs150 "Scopebench"
+SelfAdd vs48 "case"
+SelfAdd vi131 3
+SelfAdd vi89 4
+SelfAdd vs7 " SJTUdata"
+Declare string vs151 " M AC"
+Declare int vi209 -478
+SelfAdd vs145 " SJTU"
+Add int_accum vi17 vi155
+Add string_accum vs1 vs90
+SelfAdd vi6 5
+SelfAdd vi61 4
+Declare int vi210 -54
+SelfAdd vi57 3
+Declare int vi211 271
+Add string_accum vs119 vs26
+SelfAdd vs78 " M"
+SelfAdd vi191 2
+Add string_accum vs91 vs54
+Print int_accum
+Print string_accum
+SelfAdd vs106 " profile"
+SelfAdd vs135 " profile"
+SelfAdd vi80 1
+SelfAdd vi29 2
+SelfAdd vi94 2
+Declare string vs152 "case"
+SelfAdd vi112 3
+Declare string vs153 " Mdata"
+Add int_accum vi16 vi127
+SelfAdd vs68 "data"
+Add string_accum vs33 vs149
+Add int_accum vi168 vi185
+Add string_accum vs6 vs148
+SelfAdd vi45 1
+Add string_accum vs48 vs118
+Add string_accum vs133 vs114
+Add string_accum vs120 vs143
+Declare int vi212 -378
+SelfAdd vi206 2
+Add int_accum vi67 vi13
+SelfAdd vi165 2
+SelfAdd vi31 5
+SelfAdd vi48 4
+SelfAdd vs93 "data"
+Add int_accum vi170 vi18
+SelfAdd vs64 " AC"
+SelfAdd vi118 3
+Add int_accum vi180 vi117
+SelfAdd vs150 "data"
+SelfAdd vs122 " SJTUdata"
+Add int_accum vi2 vi19
+Add string_accum vs101 vs96
+SelfAdd vi42 5
+Add string_accum vs46 vs16
+Declare string vs154 " M"
+SelfAdd vs122 "bench"
+Add int_accum vi166 vi20
+Declare string vs155 "scope"
+SelfAdd vi35 1
+SelfAdd vi25 2
+SelfAdd vs53 " AC"
+SelfAdd vs49 "benchbench"
+SelfAdd vs139 " AC profile"
+Add int_accum vi140 vi200
+SelfAdd vs41 " randomscope"
+Declare int vi213 112
+Add int_accum vi82 vi180
+SelfAdd vi180 3
+SelfAdd vi134 4
+SelfAdd vi88 5
+SelfAdd vi148 1
+SelfAdd vi136 1
+Add string_accum vs14 vs86
+SelfAdd vs124 "test"
+Declare int vi214 -42
+Declare int vi215 458
+SelfAdd vi179 1
+Add int_accum int_accum vi36
+SelfAdd vs64 " SJTU"
+SelfAdd vi215 1
+SelfAdd vi133 1
+SelfAdd vs60 "Scope"
+Add string_accum vs16 vs10
+Declare int vi216 333
+Declare int vi217 -304
+SelfAdd vs37 "bench"
+Add int_accum vi75 vi81
+Add int_accum vi2 vi165
+Add int_accum vi43 vi17
+Add int_accum vi199 vi104
+SelfAdd vs115 " SJTU"
+Add string_accum vs59 vs117
+SelfAdd vi53 4
+SelfAdd vi214 2
+SelfAdd vi205 3
+SelfAdd vs85 "scopedata"
+Add string_accum vs2 vs12
+Declare int vi218 121
+Add int_accum vi178 vi59
+SelfAdd vs12 "scope"
+SelfAdd vi102 5
+Add int_accum vi36 vi74
+Add int_accum vi125 vi170
+SelfAdd vs32 "Scope"
+SelfAdd vi208 1
+Add int_accum vi154 vi146
+SelfAdd vi94 1
+Declare string vs156 "scope"
+Declare string vs157 " SJTUcase"
+SelfAdd vi181 4
+SelfAdd vi52 3
+Add string_accum vs121 vs56
+Declare int vi219 63
+SelfAdd vs156 " SJTU"
+Declare string vs158 " random"
+SelfAdd vs9 "scope"
+SelfAdd vs13 " M"
+SelfAdd vi179 2
+Add int_accum vi218 vi182
+SelfAdd vs103 "test"
+Declare int vi220 -223
+Add string_accum vs86 vs52
+SelfAdd vs40 " SJTU"
+SelfAdd vi157 1
+SelfAdd vi179 3
+SelfAdd vi179 5
+Add string_accum vs41 vs51
+Add int_accum vi49 vi137
+Add int_accum vi54 vi213
+Declare int vi221 -226
+Add int_accum vi84 ib
+Add string_accum vs149 vs22
+Declare int vi222 -402
+SelfAdd vi191 3
+SelfAdd vs133 " AC"
+Add int_accum vi39 vi65
+SelfAdd vs93 "scope random"
+SelfAdd vs134 "Scope"
+SelfAdd vi205 3
+Add int_accum vi54 vi211
+Add int_accum vi135 vi131
+Declare string vs159 " AC"
+Add int_accum vi3 vi121
+SelfAdd vi151 1
+SelfAdd vi49 5
+Add int_accum vi26 vi38
+Add int_accum vi194 vi14
+SelfAdd vs39 "testtest"
+SelfAdd vi106 5
+SelfAdd vs146 " AC"
+SelfAdd vs119 "scopebench"
+Add int_accum vi164 vi213
+SelfAdd vi3 3
+Add string_accum vs136 vs97
+SelfAdd vi120 5
+SelfAdd vi36 1
+SelfAdd vi108 4
+Add int_accum vi152 vi90
+SelfAdd vs93 " M"
+Add string_accum vs78 vs88
+Declare string vs160 " SJTU"
+Declare int vi223 108
+SelfAdd vs95 " SJTU"
+SelfAdd vs159 " profile"
+Add string_accum vs99 vs103
+SelfAdd vi210 5
+Declare int vi224 336
+Add string_accum vs32 vs26
+SelfAdd vs57 " random"
+SelfAdd vi203 2
+SelfAdd vs36 "bench"
+SelfAdd vs103 "Scope"
+SelfAdd vi221 2
+SelfAdd vs132 " SJTU"
+SelfAdd vs133 " SJTU"
+Declare string vs161 "benchtest"
+SelfAdd vi84 5
+SelfAdd vi63 4
+Add string_accum string_accum vs26
+Add int_accum vi201 vi193
+Add string_accum vs0 vs68
+SelfAdd vi171 4
+Declare int vi225 299
+SelfAdd vs110 "Scope"
+SelfAdd vi42 5
+Declare int vi226 -23
+Declare string vs162 "data"
+SelfAdd vs138 " AC"
+Add string_accum vs45 vs18
+Add string_accum vs129 vs104
+SelfAdd vi108 2
+Add string_accum vs40 vs75
+SelfAdd vi71 5
+Add int_accum vi110 vi80
+Print int_accum
+Print string_accum
