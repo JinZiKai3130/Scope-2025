@@ -266,6 +266,12 @@ Print b
 如果当前语句不合法,那么认为当前语句无效,并且输出 `Invalid operation\n` .
 
 ## Tips
+温馨提示：由于数据量达到了1e6，建议在main函数开头加上:
+```c++
+std::ios::sync_with_stdio(false);
+std::cin.tie(nullptr);
+```
+加快读入速度，否则可能导致正解超时
 
 除了你常用的输入输出头文件,字符串头文件外,你可能用到这些头文件的一部分:
 
