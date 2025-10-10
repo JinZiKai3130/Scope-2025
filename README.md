@@ -216,7 +216,7 @@ b += "naive";
 Declare int a 3
 SelfAdd a 3
 Declare string b "simple"
-Declare string b "naive"
+SelfAdd string b "naive"
 ```
 
 合法输入要求为: `[variable_name]` 为已声明的在作用域中可访问的变量名。若其类型为 `int`,则合法的 `[value]` 为整型数(如果为整型数,保证在 `int` 范围内); 若其类型为 `string`,则合法的 `[value]` 为用 `"` 包括起来的字符串常量。
