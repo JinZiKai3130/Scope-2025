@@ -1,0 +1,76 @@
+# 编译生成的文件
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# 静态库和动态库
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# 调试文件
+*.pdb
+*.idb
+*.ilk
+
+# 构建目录
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+out/
+
+# CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE 相关文件
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+ipch/
+*.aps
+*.ncb
+*.sdf
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt
+*.pro.user
+*.autosave
+
+# 依赖库
+lib/
+libs/
+ThirdParty/
+external/
+
+# 临时文件
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# 日志文件
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
