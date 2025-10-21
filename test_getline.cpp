@@ -5,6 +5,7 @@
 int main() {
     std::string a, b;
     std::cin >> a;
-    getline(cin, b);
-    std::cout << a << " " << b << std::endl;
+    getchar();
+    getline(std::cin, b);
+    std::cout << b << std::endl;
 }
