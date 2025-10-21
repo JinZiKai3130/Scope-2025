@@ -1,10 +1,1 @@
-#include <string>
-#include <iostream>
-
-
-int main() {
-    std::string a, b;
-    std::cin >> a;
-    getline(cin, b);
-    std::cout << a << " " << b << std::endl;
-}
+ic

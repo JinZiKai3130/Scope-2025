@@ -1,11 +1,11 @@
 #include <iostream>
-#include <map>
-#include <unordered_map>
 #include <utility>
 #include <string>
+#include <unordered_map>
 #include <unordered_set>
 #include <vector>
 
+const int N = 1e6+5;
 struct Variables {
     std::string s, type;
     int num;
@@ -21,8 +21,17 @@ struct cmp {
     }
 };
 
-std::map<std::pair<std::string, int>, Variables, cmp> data;
-std::unordered_map<std::string, std::vector<int>> max_l;
+struct PairHash {
+    template <typename T1, typename T2>
+    std::size_t operator()(const std::pair<T1, T2>& p) const {
+        auto h1 = std::hash<T1>{}(p.first);
+        auto h2 = std::hash<T2>{}(p.second);
+        return h1 ^ (h2 << 1);
+    }
+};
+
+std::unordered_map<std::pair<std::string, int>, Variables, PairHash> data;
+std::vector<std::string> level_name[N];
 
 void dedent(int &level) {
     // check whether it's level 0
@@ -31,10 +40,12 @@ void dedent(int &level) {
         return;
     }
     // clearing all variables in this level
-    for (auto it = data.begin(); it != data.end(); ) {
-        if (it->first.second != level) break;
-        it = data.erase(it);
+    std::pair<std::string, int> curr;
+    for (int i = 0; i < level_name[level].size(); i++) {
+        curr = std::make_pair(level_name[level][i], level);
+        data.erase(curr);
     }
+    level_name[level].clear();
     level--;
 }
 
@@ -109,12 +120,23 @@ bool inputAndTypeCheck(bool std_type, std::string input, int &input_num) {
         return 1;
     }
     else {
+        // std::cerr << input[0] << " " << input[input.length() - 1]  << std::endl;
         if(input[0] != '"' || input[input.length() - 1] != '"') {
             std::cout << "Invalid operation\n";
             return 0;
         }
         return 1;
     }
+}
+
+bool findVariable(std::pair<std::string, int> &tmp, const int level, const std::string var_name) {
+    for (int j = level; j >= 0; j--) {
+        tmp = make_pair(var_name, j);
+        if (data.find(tmp) != data.end()) {
+            return 1;
+        }
+    }
+    return 0;
 }
 
 void declare(const int &level) {
@@ -125,6 +147,7 @@ void declare(const int &level) {
     declare_string.erase(0, 1);
     std::pair<std::string, int> curr_key;
     curr_key = std::make_pair(declare_name, level);
+    // std::cerr << curr_key.first << curr_key.second << std::endl;
     if (!variableCheck(declare_name)) { // check the error of invalid variable name
         std::cout << "Invalid operation\n";
         return;
@@ -140,12 +163,14 @@ void declare(const int &level) {
             return;
         }
         curr_var.num = declare_int;
+        level_name[level].push_back(declare_name);
     }
     else {
         if (!inputAndTypeCheck(1, declare_string, declare_int)) {
             return;
         }
         curr_var.s = declare_string.substr(1, declare_string.length() - 2);
+        level_name[level].push_back(declare_name);
     }
     data[curr_key] = curr_var;
 }
@@ -160,14 +185,7 @@ void add(const int &level) {
     std::pair<std::string, int> tmp;
     for (int i = 1; i <= 3; i++) {
         bool flag = 0;
-        for (int j = level; j >= 0; j--) {
-            tmp = make_pair(variable_add[i], j);
-            if (data.find(tmp) != data.end()) {
-                flag = 1;
-                break;
-            }
-        }
-        if (!flag) { // error of no existing variable
+        if (!findVariable(tmp, level, variable_add[i])) { // error of no existing variable
             std::cout << "Invalid operation\n";
             return;
         }
@@ -197,29 +215,19 @@ void selfAdd(const int &level) {
     selfAdd_s.erase(0, 1);
     // error of no existing variable
     std::pair<std::string, int> tmp;
-    bool flag = 0;
-    for (int j = level; j >= 0; j--) {
-        tmp = make_pair(selfAdd_name, j);
-        if (data.find(tmp) != data.end()) {
-            flag = 1;
-            break;
-        }
-    }
-    if (!flag) { // error of no existing variable
+    if (!findVariable(tmp, level, selfAdd_name)) {
         std::cout << "Invalid operation\n";
         return;
     }
     // error of different types
     if (data[tmp].type == "int") {
         if (!inputAndTypeCheck(0, selfAdd_s, selfAdd_num)) {
-            std::cout << "Invalid operation\n";
             return;
         }
         data[tmp].num += selfAdd_num;
     }
     else {
         if (!inputAndTypeCheck(1, selfAdd_s, selfAdd_num)) {
-            std::cout << "Invalid operation\n";
             return;
         }
         data[tmp].s += selfAdd_s.substr(1, selfAdd_s.length() - 2);
@@ -232,14 +240,7 @@ void print(const int &level) {
     // error of no existing variable
     std::pair<std::string, int> tmp;
     bool flag = 0;
-    for (int j = level; j >= 0; j--) {
-        tmp = make_pair(print_name, j);
-        if (data.find(tmp) != data.end()) {
-            flag = 1;
-            break;
-        }
-    }
-    if (!flag) {
+    if (!findVariable(tmp, level, print_name)) { // error of no existing variable
         std::cout << "Invalid operation\n";
         return;
     }
